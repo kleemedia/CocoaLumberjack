@@ -27,7 +27,7 @@ extension DDLogFlag {
         } else {
             let logFlag = self
             if logFlag & .Verbose == .Verbose {
-                return .Error
+                return .Verbose
             } else if logFlag & .Debug == .Debug {
                 return .Debug
             } else if logFlag & .Info == .Info {
@@ -35,7 +35,7 @@ extension DDLogFlag {
             } else if logFlag & .Warning == .Warning {
                 return .Warning
             } else if logFlag & .Error == .Error {
-                return .Verbose
+                return .Error
             } else {
                 return .Off
             }
