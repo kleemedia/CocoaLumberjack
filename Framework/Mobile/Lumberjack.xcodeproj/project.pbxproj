@@ -255,8 +255,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A37F99A18E37270009FAAA7 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
 			buildPhases = (
-				2A37F97318E37270009FAAA7 /* Sources */,
 				E5CEB371199496F200EDC36E /* Headers */,
+				2A37F97318E37270009FAAA7 /* Sources */,
 			);
 			buildRules = (
 			);
